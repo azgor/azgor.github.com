@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'ChunkFive';
+	src: local('ChunkFive'), url('../fonts/chunk-webfont.svg#webfont4qZs1K5b') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fontin';
+	src: local('Fontin'), url('../fonts/fontin-italic-webfont.svg#webfontLJAzjZpW') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+header h1 {
+font-size: 44px;
+line-height: 36px;
+}
+
+header h3 {
+font-size:36px;
+line-height:48px;
+font-family: 'Fontin',"Palatino Linotype","Book Antiqua",Palatino,FreeSerif, serif;
+}
+
+nav ul {
+width:470px;
+}
+
+nav li {
+padding-top:12px;
+}
+
+.mac.chrome nav li {
+padding-top:12px;
+}
+
+nav a {
+font-size: 30px;
+}
+
+.about .about-text {
+padding:0 32px;
+}
+
+.about p, .contact p {
+font-size:36px;
+line-height:42px;
+margin-bottom:16px;
+}
+
+.contact-wrapper {
+background:url('../img/bg-contact-m.png') no-repeat center bottom;
+}
+
+
+.contact p {
+margin:0
+}
+
+.work-example h3 {
+padding-top:38px;
+}
+
+.mac.chrome .contact a {
+padding:16px 0 16px 0;
+}
+
+.mac.chrome .contact a.goto {
+padding:0;
+}
+
+
+.kernme {
+letter-spacing:-5px;
+}
